@@ -21,12 +21,12 @@ A Sentinel analytic rule flags a user login from an unrecognized IP address or u
 ---
 
 ## 3️⃣ Triage Steps
-<<<
+```
 SigninLogs
 | where ResultType == 0
 | extend Country = tostring(LocationDetails.countryOrRegion)
 | summarize Logins=count(), Locations=make_set(Country) by UserPrincipalName
-<<<
+```
 - Compare user’s normal sign-in history and device.  
 - Verify MFA success and check if device is compliant.  
 - Run IP reputation lookup (VirusTotal, IPVoid, or OTX).  
