@@ -20,11 +20,11 @@ A new alert appears in Microsoft Sentinel — analyst must determine whether it�
 ---
 
 ## 3️⃣ Triage Steps
-<<<
+```
 SecurityAlert
 | where TimeGenerated > ago(1d)
 | project AlertName, Severity, ProviderName, CompromisedEntity, Tactics, TimeGenerated
-<<<
+```
 - Review alert title, severity, and correlated entities.  
 - Validate by cross-checking Defender alerts or sign-in logs.  
 - Search historical alerts on same entity (user, IP, or host).  
