@@ -20,11 +20,11 @@ Microsoft Defender for Office 365 or Sentinel detects a potentially malicious em
 ---
 
 ## 3️⃣ Triage Steps
-<<<
+```
 EmailEvents
 | where ThreatTypes has_any ("Phish", "Malware")
 | project TimeGenerated, SenderFromAddress, Subject, Urls, DeliveryLocation
-<<<
+```
 - Review sender domain and SPF/DKIM results.  
 - Check URL and attachment reputation (VirusTotal / Hybrid Analysis).  
 - Search if message was delivered to multiple mailboxes.  
