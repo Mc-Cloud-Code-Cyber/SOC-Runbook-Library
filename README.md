@@ -17,35 +17,35 @@ Each runbook includes detection logic, triage steps, containment actions, and au
 
 ## 🧱 Project Structure
 
-<<<
+```
 /SOC-Runbook-Library
-│  
+  
 ├── 01_Alert-Triage/  
 │   ├── Sentinel_Initial_Alert_Review.md  
 │   ├── Suspicious_Login_Event.md  
-│   ├── Malicious_Email_Detected.md  
-│  
+│   ├── Malicious_Email_Detected.md
+    
 ├── 02_Incident-Response/  
 │   ├── Phishing-Incident_Runbook.md  
 │   ├── Malware-Execution_Runbook.md  
-│   ├── Privilege-Escalation_Runbook.md  
-│  
+│   ├── Privilege-Escalation_Runbook.md
+  
 ├── 03_Threat-Hunting/  
 │   ├── Beaconing-Detection_KQL.md  
 │   ├── PowerShell-Command-Logging_KQL.md  
 │   ├── Data-Exfiltration-Over-HTTP.md  
-│  
+  
 ├── 04_Automation-Playbooks/  
 │   ├── Auto-Isolate-Device_LogicApp.json  
 │   ├── Disable-User-Account_PowerShell.ps1  
 │   ├── Alert-Enrichment_FunctionApp.py  
-│  
+  
 ├── 05_Reporting-And-Metrics/  
 │   ├── Daily-SOC-Metrics-Workbook.json  
 │   ├── Incident-Closure-Report_Template.md  
-│  
+  
 └── README.md  
-<<<
+```
 
 ---
 
