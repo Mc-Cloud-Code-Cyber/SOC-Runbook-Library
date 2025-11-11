@@ -11,7 +11,7 @@
 ## 1️⃣ Scenario
 Microsoft Defender for Office 365 or Sentinel detects a potentially malicious email containing harmful URLs or attachments.
 
----
+----
 
 ## 2️⃣ Detection Source
 - Microsoft Defender for Office 365  
